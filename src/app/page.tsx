@@ -1,4 +1,4 @@
-import { Status } from '../../constants';
+import { Status } from './constants';
 import StatusLabel from './components/status-label';
 
 const Home = () => {

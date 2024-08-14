@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { Status } from '../../../constants';
+import { Status } from '../constants';
 
 export interface StatusLabelProps {
   children: ReactNode;
