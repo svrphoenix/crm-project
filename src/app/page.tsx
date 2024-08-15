@@ -1,5 +1,6 @@
 import { Status } from './constants';
-import StatusLabel from './components/status-label';
+import StatusLabel from './components/StatusLabel';
+import AddCompanyButton from './components/AddCompanyButton';
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <StatusLabel status={Status.NotActive}>Not Active</StatusLabel>
       <StatusLabel status={Status.Pending}>Pending</StatusLabel>
       <StatusLabel status={Status.Suspended}>Suspended</StatusLabel>
+      <AddCompanyButton />
     </main>
   );
 };

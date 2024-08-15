@@ -2,13 +2,13 @@ import { ReactNode } from 'react';
 import clsx from 'clsx';
 import { Status } from '../constants';
 
-export interface StatusLabelProps {
+export interface IStatusLabelProps {
   children: ReactNode;
   status: Status;
   disabled?: boolean;
 }
 
-const StatusLabel = ({ children, status, disabled }: StatusLabelProps) => {
+const StatusLabel = ({ children, status, disabled }: IStatusLabelProps) => {
   return (
     <div
       className={clsx(
