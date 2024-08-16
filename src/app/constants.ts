@@ -5,4 +5,13 @@ enum Status {
   Suspended = 'suspended',
 }
 
-export { Status };
+const labelByStatus = {
+  [Status.Active]: 'Active',
+  [Status.NotActive]: 'Not Active',
+  [Status.Pending]: 'Pending',
+  [Status.Suspended]: 'Suspended',
+};
+
+const headers = ['Category', 'Company', 'Status', 'Promotion', 'Country', 'Joined date'];
+
+export { Status, labelByStatus, headers };
