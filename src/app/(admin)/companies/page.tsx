@@ -5,7 +5,7 @@ import SearchInput from '@/app/components/SearchInput';
 import AddCompanyButton from '@/app/components/AddCompanyButton';
 import CompanyTable from '@/app/components/CompanyTable';
 import CompanyRow from '@/app/components/CompanyRow';
-import { Status } from '../constants';
+import { Status } from '@/app/constants';
 
 interface IPageProps {}
 
